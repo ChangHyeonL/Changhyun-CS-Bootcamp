@@ -12,24 +12,13 @@ namespace StudentMgr
         static void Main(string[] args)
         {
             Student student1 = new Student();
-            Student student2 = new Student("홍길동");
-            Student student3 = new Student("홍길동", "서울특별시");
-            student1.printName();
-            student1.printAddress();
-            student2.printName();
-            student2.printAddress();
-            student3.printName();
-            student3.printAddress();
+            student1.SetName("홍길동");
+            student1.SetAge(1000);
+            student1.SetAge(-1);
+            Console.WriteLine(student1.Name);
 
         }
     }
 
-    /// <summary>
-    /// <para>StudentMgr.Student 클래스 정의</para>
-    /// <para>이것은 테스트입니다.</para>
-    /// </summary>
-    //class Student
-    //{
-
-    //}
+    
 }
