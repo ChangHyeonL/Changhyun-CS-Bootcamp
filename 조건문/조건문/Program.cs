@@ -9,7 +9,7 @@ namespace 조건문
     internal class Program
     {
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int min = 0;
             int max = 5;
