@@ -35,7 +35,7 @@ namespace Quiz
         {
             Console.WriteLine("숫자를 입력해주세요.[0~100]");
             string val = Console.ReadLine();
-            return ConvertString2Int(val);
+            return ConvertString2Int(val); // val == -1은 에러
 
         }
 

@@ -12,10 +12,10 @@ class HelloWorld
         var.PrintHello("안녕하세요 여러분!");
     }
 
-    static void PrintHello(string str)
+    /*static void PrintHello(string str)
     {
         Console.WriteLine(str);
-    }
+    }*/
 
 
 }
